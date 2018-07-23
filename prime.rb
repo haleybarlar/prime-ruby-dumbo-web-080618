@@ -1,6 +1,7 @@
 
 def prime?(number)
-  (1...number).each do |i|
+  range = (1...number).to_a
+  each do |i|
     if number < 1
       return false
     else number % i == 0
