@@ -5,7 +5,7 @@ def prime?(number)
       return false
     else 
       range.each do |i|
-      number % i == 0
+      if number % i == 0
       return false
       break
 end
