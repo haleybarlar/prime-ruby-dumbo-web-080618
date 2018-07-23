@@ -10,5 +10,6 @@ def prime?(number)
       break
 end
 end
+end
 return true
 end
